@@ -1,0 +1,27 @@
+div {
+    background: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    position: relative;
+    animation: bouce 0.7s ease infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bouce {
+    from {
+        top: calc(300px - 120px);
+        left: 0px;
+    }
+    
+    50% {
+        top: calc(250px - 120px);
+    }
+    
+    to {
+        top: calc(300px - 120px);
+        left: calc(300px - 120px);
+    }
+}

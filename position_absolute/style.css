@@ -1,0 +1,22 @@
+section {
+    width: 500px;
+    background: blue;
+    margin: 50px;
+}
+
+.container {
+    width: 200px;
+    margin: auto;
+    background: red;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}

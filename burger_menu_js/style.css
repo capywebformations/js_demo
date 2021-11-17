@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+header .header__nav {
+    background: lightgray;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    display: none;
+}
+
+header .header__nav--open {
+    display: block;
+}
+
+header .header__nav__burger--icon {
+    background: black;
+    color: white;
+}

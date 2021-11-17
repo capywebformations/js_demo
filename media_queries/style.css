@@ -1,0 +1,36 @@
+.part1{
+    background-color: grey;
+    display:flex;
+}
+
+.form {
+    background: lightblue;
+    width: 100%
+}
+
+.img {
+    background:lightgreen;
+    display: flex;
+}
+
+.form div {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .part1 {
+        flex-direction: column;
+    }
+    
+    .form div {
+        flex-direction: column;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+    
+}
